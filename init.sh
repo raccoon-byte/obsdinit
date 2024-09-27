@@ -85,7 +85,7 @@ install_graphical_interface () {
     git clone https://github.com/Fiscoon/st.git /tmp/st
     make -C /tmp/st install
     # Install related graphical packages
-    pkg_add picom-- xwallpaper-- nsxiv-- hermit-font-- symbola-ttf-- mpv-- scrot-- xdotool-- xclip-- surf--
+    pkg_add picom-- xwallpaper-- nsxiv-- hermit-font-- symbola-ttf-- mpv-- scrot-- xdotool-- xclip-- surf-- maim-- sxhkd--
 }
 
 install_dotfiles() {
