@@ -67,7 +67,7 @@ enable_apmd() {
 install_packages() {
     # Install software
     echo "Installing software..." > /dev/tty
-    pkg_add wget-- curl-- shellcheck-- freetype-- fff-- weechat-- unzip-- neovim-- gmake-- git-- neomutt--sasl cyrus-sasl--
+    pkg_add wget-- curl-- shellcheck-- fff-- weechat-- unzip-- neovim-- gmake-- git-- neomutt--sasl cyrus-sasl--
     curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm && chmod a+x /usr/local/bin/yadm
 }
 
@@ -75,7 +75,7 @@ install_graphical_interface () {
     local username="$1"
 
     # Install related graphical packages
-    pkg_add picom-- xwallpaper-- nsxiv-- hermit-font-- symbola-ttf-- mpv-- scrot-- xdotool-- xclip-- surf-- maim-- sxhkd-- dwm-- st-- dmenu--
+    pkg_add picom-- xwallpaper-- nsxiv-- hermit-font-- symbola-ttf-- mpv-- xdotool-- xclip-- surf-- maim-- sxhkd-- dwm-- st-- dmenu--
     # Add dwm to xsession
     echo "exec dwm" > /home/"$username"/.xsession
     rcctl enable xenodm
