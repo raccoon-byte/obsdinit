@@ -10,4 +10,4 @@ This is a script that automatically installs basic software and configures a bar
 
 ## Usage
 Run the following command as root:
-`ftp https://raw.githubusercontent.com/Fiscoon/obsdinit/main/init.sh && sh ./init.sh`
+`ftp https://raw.githubusercontent.com/raccoon-byte/obsdinit/refs/heads/master/init.sh && sh ./init.sh`
